@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -31,13 +31,19 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'eyecare_app.apps.EyecareAppConfig',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'eyecare_app.apps.EyecareAppConfig',
+    'eyecare_app',
+    'newpatient.apps.NewpatientConfig',
+    'crispy_forms',
+    'users.apps.UsersConfig',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -76,9 +82,12 @@ WSGI_APPLICATION = 'eyecare.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'ENGINE': 'djongo',
+        'NAME': 'NewDB',
+        'HOST': 'mongodb+srv://Sumit:G%40rud.1234@cluster0.4uzyh.mongodb.net/cloudcomputing?retryWrites=true&w=majority',
+        'USER': 'Sumit',
+        'PORT': 27017,
+        'PASSWORD': 'G@rud.1234'}
 }
 
 
@@ -119,3 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'

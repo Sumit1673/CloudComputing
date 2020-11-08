@@ -1,4 +1,51 @@
 {% extends "eyecare_app/base.html" %}
 {% block content %}
-    <h1>Eyecare- Workspace</h1>
+    <h1> Workspace</h1>
+    <p style="font-family:verdana; font-size:150%; color:green">
+        <b>Add patients information, retina images and send it for analysis</b>
+    </p>
+
+    <button onclick="" class="patient-add-btn button1"> Add Patient </button>
+    <button onclick="" name="del_patient" value="DelPatient" class="patient-add-btn button1"> Delete Patient </button>
+    <button onclick="" name="view_patient" value="ViewPatient" class="patient-add-btn button1"> View Patient Profile </button>
+    <button onclick="" name="analyze_patient" value="AnalyzePatient" class="patient-add-btn button1"> Send for Analysis </button>
+    {% if btn_clicked %}
+        <div>
+            <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Patient ID</th>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Result/Severity Level</th>
+              <th scope="col">Tested on</th>
+              <th scope="col">AI confidence</th>
+              <th scope="col">Comments</th>
+            </tr>
+          </thead>
+            <tbody>
+            {% for each_data in data %}
+             <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1" >
+                  <label class="custom-control-label" for="customCheck1">{{each_data.id}}</label>
+              </div>
+              {% if data %}
+                <td>Bootstrap 4 CDN and Starter Template</td>
+                <td>Cristina</td>
+                <td>913</td>
+                <td>2.846</td>
+              {% else %}
+                <h2> No data available</h2>
+              {% endif %}
+              </td>
+          </tr>
+             {% endfor %}
+
+            </tbody>
+        </table>
+        </div>
+    {% endif %}
 {% endblock content %}

@@ -15,10 +15,21 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from newpatient import views as new_patient_view
+from django.conf import settings
+from django.conf.urls.static import static
+from users import views as view_users
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('eyecare', include('eyecare_app.urls')), if you have multiple apps it is
+    path('newpatient/', new_patient_view.add_new_patient, name='newpatient'),
+    # path('register/>', view_users.register, name='register'),
+    path('', include('users.urls')),
+
+    path('', include('eyecare_app.urls')),# if you have multiple apps it is
     #  recommended to go with the specific app name. If you have just one then follow the next command
-    path('', include('eyecare_app.urls')),
-]
+    # path('', include('eyecare_app.urls')),
+    # path('', include('patient_profile.urls')),
+]+ static(settings.MEDIA_URL, document_root= settings.MEDIA_ROOT)
+

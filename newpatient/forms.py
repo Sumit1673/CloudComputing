@@ -1,6 +1,6 @@
 from django import forms
 from eyecare_app.models import DataPatinet
-from .models import PatientImage
+# from .models import PatientImage
 from random import randrange as rand_num
 
 
