@@ -1,6 +1,7 @@
 from django.shortcuts import render
 # from .models import PatientInfo, DiabeticResults
-import datetime
+from django.contrib.auth.decorators import login_required
+from users.views import login
 
 def home(request):
 
@@ -16,16 +17,7 @@ def about(request):
 #     # if add_patient_clicked is not None:
 #     return render(request, 'eyecare_app/new_patient.html')
 
-
+@login_required
 def workspace(request):
     data = [1,2,2,3,4]
-    # p_res = DiabeticResults()
-    # p_res.result, p_res.ai_score = 3, 93.5
-    # p_res.tested_on = datetime.date(2020, 1, 25)
-    # p_res.save()
-    # p_info = PatientInfo()
-    # p_info.result = p_res
-    # p_info.first_name = 'Tony'
-    # p_info.last_name = 'Stark'
-    # p_info.save()
     return render(request, 'eyecare_app/workspace.html', {'btn_clicked': 1, 'data':data})

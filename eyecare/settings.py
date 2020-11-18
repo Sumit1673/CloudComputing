@@ -83,6 +83,7 @@ WSGI_APPLICATION = 'eyecare.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
+        'ENFORCE_SCHEMA': False,
         'NAME': 'NewDB',
         'HOST': 'mongodb+srv://Sumit:G%40rud.1234@cluster0.4uzyh.mongodb.net/cloudcomputing?retryWrites=true&w=majority',
         'USER': 'Sumit',
@@ -132,3 +133,12 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+AUTHENTICATION_BACKENDS = [
+    'users.login_backened.LoginAuthBackened',
+]
+# URL for @login_required decorator to use
+LOGIN_URL = '/login/'
+
+# redirect authenticated users
+# LOGIN_REDIRECT_URL = '/workspace/'

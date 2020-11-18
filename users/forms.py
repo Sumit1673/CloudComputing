@@ -7,7 +7,7 @@ class UserCreationForm(forms.ModelForm):
     first_name = forms.CharField(label='First Name', max_length=100)
     last_name = forms.CharField(label='Last Name', max_length=100)
     username = forms.CharField(label='Username', max_length=100)
-    dept_name = forms.CharField(max_length=50, required=False)
+    dept_name = forms.CharField(label='Department', max_length=50, required=False)
     doctor_id = forms.IntegerField(initial=str(rand_num(0,100)))
     doctor_id.disabled = True
     # hospital = forms.CharField(label='Hospital', max_length=12, required=False)
@@ -23,3 +23,8 @@ class HospitalForm(forms.ModelForm):
     class Meta:
         model = HospitalDataModel
         fields = '__all__'
+
+class LoginForm(forms.Form):
+    username = forms.CharField(label='Username', max_length=100)
+    password = forms.CharField(widget=forms.PasswordInput())
+

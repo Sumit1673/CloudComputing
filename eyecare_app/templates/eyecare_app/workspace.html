@@ -1,11 +1,14 @@
 {% extends "eyecare_app/base.html" %}
 {% block content %}
+
     <h1> Workspace</h1>
     <p style="font-family:verdana; font-size:150%; color:green">
         <b>Add patients information, retina images and send it for analysis</b>
     </p>
-
-    <button onclick="" class="patient-add-btn button1"> Add Patient </button>
+    <a href="{% url 'app-add_new_patient'%}">
+    <button class="patient-add-btn button1">Add Patient</button>
+    </a>
+<!--    <button onclick="{% url 'app-add_new_patient'%}" class="patient-add-btn button1" type="button" > Add Patient </button>-->
     <button onclick="" name="del_patient" value="DelPatient" class="patient-add-btn button1"> Delete Patient </button>
     <button onclick="" name="view_patient" value="ViewPatient" class="patient-add-btn button1"> View Patient Profile </button>
     <button onclick="" name="analyze_patient" value="AnalyzePatient" class="patient-add-btn button1"> Send for Analysis </button>

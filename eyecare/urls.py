@@ -23,7 +23,7 @@ from users import views as view_users
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('newpatient/', new_patient_view.add_new_patient, name='newpatient'),
+    path('', include('newpatient.urls') ),
     # path('register/>', view_users.register, name='register'),
     path('', include('users.urls')),
 
