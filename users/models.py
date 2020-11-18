@@ -25,10 +25,7 @@ class StaffDataModel(models.Model):
     doctor_id = models.IntegerField(primary_key=True)
     username = models.CharField(max_length=15, null=False)
     password = models.CharField(max_length=20, null=True)
-    # is_active = models.BooleanField(default=False)
-    # last_login = models.DateTimeField()
-    last_login = models.DateTimeField(default=timezone.now)
-    # Since a single hospital can have multiple staff that is why one to many
+    last_login = models.DateTimeField(default=timezone.now) # for login purpose
     hospital = models.ForeignKey(HospitalDataModel, on_delete=models.CASCADE)
 
     def __str__(self):

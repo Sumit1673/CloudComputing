@@ -10,7 +10,7 @@ class LoginAuthBackened():
             user = StaffDataModel.objects.get(username=username)
             if user.password == password:
                 user.is_authenticated = True
-                user.is_active = True
+                user.is_active = True # added
                 user.last_login = timezone.now()
                 return user
             else:

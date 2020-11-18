@@ -19,14 +19,9 @@ def cus_login(request):
             if user:
                 if user.is_active:
                     login(request, user)
-                    # Redirect to a success page.
-                    # if 'next' in request.POST:
-                    #     print('here', request.POST.get('next'))
-                    #     return redirect(request.POST.get('next'))
-
                     messages.success(request, f'Login Successful.')
-                    print('Inside Login View',request.user)
-                    print('Inside Login View', request.user.is_authenticated)
+                    # print('Inside Login View',request.user)
+                    # print('Inside Login View', request.user.is_authenticated)
                     return redirect('app-workspace')
                 else:
                     print("user inactive")

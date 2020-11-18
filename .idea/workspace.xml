@@ -1,83 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/Sumit" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <expand />
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af279f74-c60b-478f-a065-df34cde4e2f8" name="Default Changelist" comment="updated data model">
-      <change afterPath="$PROJECT_DIR$/.idea/CloudComputing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eyecare_app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eyecare_app/static/images/bgimg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/new_patient.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/retina_images/Super_Commando_Dhruva.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_project.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_project_subsystem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/new_patient.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newpatient/migrations/0002_delete_patientimage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retin_eye_class_diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retin_eye_class_diagram2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retin_eye_class_diagram2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0002_auto_20201103_0326.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0003_auto_20201103_0341.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0004_auto_20201107_1256.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eyecare/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eyecare/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eyecare_app/static/eyecare_app/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/static/eyecare_app/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/workspace.html" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/workspace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newpatient/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpatient/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newpatient/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpatient/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newpatient/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpatient/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_profile/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_profile/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_profile/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_profile/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_profile/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_profile/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpatient/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_profile/views.py" beforeDir="false" />
-    </list>
+    <list default="true" id="af279f74-c60b-478f-a065-df34cde4e2f8" name="Default Changelist" comment="login before use implemented" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -115,11 +44,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/eyecare_app/templates/eyecare_app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eyecare_app/static/eyecare_app" />
+      <recent name="$PROJECT_DIR$/eyecare/static/images" />
+      <recent name="$PROJECT_DIR$/users" />
+      <recent name="$PROJECT_DIR$/users/static/users" />
       <recent name="$PROJECT_DIR$/patient_profile/static/patient_profile" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/eyecare_app/templates/eyecare_app" />
     </key>
   </component>
@@ -266,12 +198,72 @@
       <option name="project" value="LOCAL" />
       <updated>1603605787864</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated data model">
+      <created>1604852415791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604852415791</updated>
+    </task>
+    <task id="LOCAL-00007" summary="login before use implemented">
+      <created>1605736897021</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605736897021</updated>
+    </task>
+    <task id="LOCAL-00008" summary="login before use implemented">
+      <created>1605737240755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605737240755</updated>
+    </task>
+    <task id="LOCAL-00009" summary="login before use implemented">
+      <created>1605737486186</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605737486186</updated>
+    </task>
+    <task id="LOCAL-00010" summary="login before use implemented">
+      <created>1605738474685</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605738474685</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -285,7 +277,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Sumit" />
+                        <option value="Sumit" />
                       </list>
                     </value>
                   </entry>
@@ -305,66 +297,88 @@
     <MESSAGE value="patient info handler" />
     <MESSAGE value="patient info handler with image upload" />
     <MESSAGE value="updated data model" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated data model" />
+    <MESSAGE value="login before use implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="login before use implemented" />
   </component>
   <component name="WindowStateProjectService">
     <state x="164" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603482437449">
       <screen x="52" y="27" width="2908" height="873" />
     </state>
     <state x="164" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/52.27.2908.873@52.27.2908.873" timestamp="1603482437449" />
+    <state x="401" y="199" width="599" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605737094310">
+      <screen x="52" y="27" width="1308" height="741" />
+    </state>
+    <state x="401" y="199" width="599" height="403" key="#com.intellij.fileTypes.FileTypeChooser/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605737094310" />
+    <state x="464" y="145" key="#xdebugger.evaluate" timestamp="1605726402373">
+      <screen x="52" y="27" width="1308" height="741" />
+    </state>
+    <state x="464" y="145" key="#xdebugger.evaluate/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605726402373" />
+    <state x="304" y="90" width="1046" height="629" key="DiffContextDialog" timestamp="1605737827052">
+      <screen x="52" y="27" width="1308" height="741" />
+    </state>
+    <state x="304" y="90" width="1046" height="629" key="DiffContextDialog/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605737827052" />
     <state x="580" y="147" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604550173459">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
     <state x="580" y="147" width="424" height="491" key="FileChooserDialogImpl/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1604550173459" />
     <state x="1360" y="256" key="FileChooserDialogImpl/52.27.2908.873@52.27.2908.873" timestamp="1603469439616" />
-    <state width="1285" height="259" key="GridCell.Tab.0.bottom" timestamp="1603545594499">
-      <screen x="52" y="27" width="2908" height="873" />
+    <state width="1285" height="259" key="GridCell.Tab.0.bottom" timestamp="1605738439180">
+      <screen x="52" y="27" width="1308" height="741" />
     </state>
-    <state width="1285" height="260" key="GridCell.Tab.0.bottom/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1602248264586" />
+    <state width="1285" height="259" key="GridCell.Tab.0.bottom/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738439180" />
     <state width="1525" height="322" key="GridCell.Tab.0.bottom/52.27.1548.873@52.27.1548.873" timestamp="1603410305574" />
     <state width="1285" height="259" key="GridCell.Tab.0.bottom/52.27.2908.873@52.27.2908.873" timestamp="1603545594499" />
-    <state width="1285" height="259" key="GridCell.Tab.0.center" timestamp="1603545594498">
-      <screen x="52" y="27" width="2908" height="873" />
+    <state width="1285" height="259" key="GridCell.Tab.0.center" timestamp="1605738439180">
+      <screen x="52" y="27" width="1308" height="741" />
     </state>
-    <state width="1285" height="260" key="GridCell.Tab.0.center/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1602248264586" />
+    <state width="1285" height="259" key="GridCell.Tab.0.center/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738439180" />
     <state width="1525" height="322" key="GridCell.Tab.0.center/52.27.1548.873@52.27.1548.873" timestamp="1603410305573" />
     <state width="1285" height="259" key="GridCell.Tab.0.center/52.27.2908.873@52.27.2908.873" timestamp="1603545594498" />
-    <state width="1285" height="259" key="GridCell.Tab.0.left" timestamp="1603545594498">
-      <screen x="52" y="27" width="2908" height="873" />
+    <state width="1285" height="259" key="GridCell.Tab.0.left" timestamp="1605738439180">
+      <screen x="52" y="27" width="1308" height="741" />
     </state>
-    <state width="1285" height="260" key="GridCell.Tab.0.left/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1602248264586" />
+    <state width="1285" height="259" key="GridCell.Tab.0.left/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738439180" />
     <state width="1525" height="322" key="GridCell.Tab.0.left/52.27.1548.873@52.27.1548.873" timestamp="1603410305572" />
     <state width="1285" height="259" key="GridCell.Tab.0.left/52.27.2908.873@52.27.2908.873" timestamp="1603545594498" />
-    <state width="1285" height="259" key="GridCell.Tab.0.right" timestamp="1603545594498">
-      <screen x="52" y="27" width="2908" height="873" />
+    <state width="1285" height="259" key="GridCell.Tab.0.right" timestamp="1605738439180">
+      <screen x="52" y="27" width="1308" height="741" />
     </state>
-    <state width="1285" height="260" key="GridCell.Tab.0.right/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1602248264586" />
+    <state width="1285" height="259" key="GridCell.Tab.0.right/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738439180" />
     <state width="1525" height="322" key="GridCell.Tab.0.right/52.27.1548.873@52.27.1548.873" timestamp="1603410305574" />
     <state width="1285" height="259" key="GridCell.Tab.0.right/52.27.2908.873@52.27.2908.873" timestamp="1603545594498" />
-    <state width="1285" height="215" key="GridCell.Tab.1.bottom" timestamp="1603461962497">
-      <screen x="52" y="27" width="2908" height="873" />
+    <state width="1525" height="267" key="GridCell.Tab.1.bottom" timestamp="1605731463831">
+      <screen x="52" y="27" width="1308" height="741" />
     </state>
+    <state width="1525" height="267" key="GridCell.Tab.1.bottom/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605731463831" />
     <state width="1285" height="215" key="GridCell.Tab.1.bottom/52.27.2908.873@52.27.2908.873" timestamp="1603461962497" />
-    <state width="1285" height="215" key="GridCell.Tab.1.center" timestamp="1603461962497">
-      <screen x="52" y="27" width="2908" height="873" />
+    <state width="1525" height="267" key="GridCell.Tab.1.center" timestamp="1605731463830">
+      <screen x="52" y="27" width="1308" height="741" />
     </state>
+    <state width="1525" height="267" key="GridCell.Tab.1.center/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605731463830" />
     <state width="1285" height="215" key="GridCell.Tab.1.center/52.27.2908.873@52.27.2908.873" timestamp="1603461962497" />
-    <state width="1285" height="215" key="GridCell.Tab.1.left" timestamp="1603461962496">
-      <screen x="52" y="27" width="2908" height="873" />
+    <state width="1525" height="267" key="GridCell.Tab.1.left" timestamp="1605731463830">
+      <screen x="52" y="27" width="1308" height="741" />
     </state>
+    <state width="1525" height="267" key="GridCell.Tab.1.left/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605731463830" />
     <state width="1285" height="215" key="GridCell.Tab.1.left/52.27.2908.873@52.27.2908.873" timestamp="1603461962496" />
-    <state width="1285" height="215" key="GridCell.Tab.1.right" timestamp="1603461962497">
-      <screen x="52" y="27" width="2908" height="873" />
+    <state width="1525" height="267" key="GridCell.Tab.1.right" timestamp="1605731463830">
+      <screen x="52" y="27" width="1308" height="741" />
     </state>
+    <state width="1525" height="267" key="GridCell.Tab.1.right/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605731463830" />
     <state width="1285" height="215" key="GridCell.Tab.1.right/52.27.2908.873@52.27.2908.873" timestamp="1603461962497" />
-    <state x="52" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1604371269753">
+    <state x="451" y="100" width="500" height="602" key="RollbackChangesDialog" timestamp="1605737036775">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
-    <state x="52" y="31" width="1022" height="737" key="SettingsEditor/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1604371269753" />
-    <state x="640" y="173" width="580" height="455" key="Vcs.Push.Dialog.v2" timestamp="1603605791093">
+    <state x="451" y="100" width="500" height="602" key="RollbackChangesDialog/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605737036775" />
+    <state x="52" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1605738391742">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
-    <state x="640" y="173" width="580" height="455" key="Vcs.Push.Dialog.v2/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1603605791093" />
+    <state x="52" y="31" width="1022" height="737" key="SettingsEditor/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738391742" />
+    <state x="52" y="31" width="1022" height="737" key="SettingsEditor/52.27.1548.873@52.27.1548.873" timestamp="1605632568345" />
+    <state x="284" y="106" width="580" height="455" key="Vcs.Push.Dialog.v2" timestamp="1605738641659">
+      <screen x="52" y="27" width="1308" height="741" />
+    </state>
+    <state x="284" y="106" width="580" height="455" key="Vcs.Push.Dialog.v2/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738641659" />
     <state x="421" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1548.873@52.27.1548.873" timestamp="1601086473480" />
     <state x="1360" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.2908.873@52.27.2908.873" timestamp="1603497237612" />
     <state x="83" y="73" width="950" height="659" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1602133505497">
@@ -375,5 +389,24 @@
       <screen x="52" y="27" width="1548" height="873" />
     </state>
     <state x="607" y="378" width="428" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/52.27.1548.873@52.27.1548.873" timestamp="1601081382248" />
+    <state x="397" y="136" width="618" height="522" key="find.popup" timestamp="1604877456096">
+      <screen x="52" y="27" width="1308" height="741" />
+    </state>
+    <state x="397" y="136" width="618" height="522" key="find.popup/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1604877456096" />
+    <state x="427" y="297" width="547" height="207" key="git4idea.ui.GitStashDialog" timestamp="1605737734280">
+      <screen x="52" y="27" width="1308" height="741" />
+    </state>
+    <state x="427" y="297" width="547" height="207" key="git4idea.ui.GitStashDialog/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605737734280" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/users/views.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
