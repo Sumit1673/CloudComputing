@@ -1,0 +1,203 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+
+body {
+  background: white;
+  margin-top: 5rem;
+  z-index:1;
+}
+
+
+/*home page*/
+.home{
+  background :url(https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/5c8de1f/2147483647/strip/true/crop/4992x3250+0+39/resize/768x500!/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F41%2Fd2%2F7a0f533d4624831f8dbc82bb607c%2Fgettyimages-174973389-rf-hg.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  background-attachment: fixed;
+  margin-top: 0;
+  z-index: 1;
+}
+
+.home::after{
+    content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .7;
+	z-index: -1;
+}
+
+.content{
+    padding-top: 15rem;
+    position: relative;
+}
+
+
+.content h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal .5s ease forwards;
+	animation-delay: 1s;
+}
+.content h1:nth-child(1) {
+	animation-delay: 1s;
+}
+.content h1:nth-child(2) {
+	animation-delay: 2s;
+}
+.content h1:nth-child(3) {
+	animation: text_reveal_name .5s ease forwards;
+	animation-delay: 3s;
+}
+.content h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: #42a1f5;
+	animation: text_reveal_box 1s ease;
+	animation-delay: .5s;
+}
+.content h1:nth-child(1) span {
+	animation-delay: .5s;
+}
+.content h1:nth-child(2) span {
+	animation-delay: 1.5s;
+}
+.content h1:nth-child(3) span {
+	animation-delay: 2.5s;
+}
+
+.brand_name a span{
+  color: #42a1f5;
+}
+/* end of home page */
+
+.leftside, .rightside{
+    height:100vh;
+    widht:100%;
+}
+
+.leftside{
+    background:red;
+}
+
+.rightside{
+    background:blue;
+}
+/*about page*/
+
+.contents container h1{
+   padding-top: 10rem;
+   border-size:10rem;
+   border color: green;
+}
+/*end of about page*/
+/* To change a page title color use the belows section */
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+/* To change the header color use the belows section */
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+/*keyframnes*/
+@keyframes text_reveal_box {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal {
+	100% {
+		color: white;
+	}
+}
+@keyframes text_reveal_name {
+	100% {
+		color: #42a1f5;
+		font-weight: 500;
+	}
+}
+/*end of keyframes*/
