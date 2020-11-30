@@ -5,7 +5,152 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af279f74-c60b-478f-a065-df34cde4e2f8" name="Default Changelist" comment="login before use implemented" />
+    <list default="true" id="af279f74-c60b-478f-a065-df34cde4e2f8" name="Default Changelist" comment="login before use implemented">
+      <change afterPath="$PROJECT_DIR$/RESNET.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_test.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/downloads" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glasses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/001639a390f0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/003f0afdcd15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/006efc72b638.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/009c019a7309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0111b949947e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/01499815e469.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0167076e7089.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/01c5ba195207.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/01e4d86b3a30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/020921b796d5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/024d0a225db1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0268f4382c67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/03042a663e54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/030e06ddbb04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/033cdbbbdfaa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/03be80919be4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/03eaa4eef484.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0434995d0654.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/04a0773c71fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/051d9d12a6ee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/052e00f47cfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0622a0f615db.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/062ed40f5272.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/0654cdd3c01a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/065cb18bb0b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/069037e82135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/069ebdb1023d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/06cdd3f3f262.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/06daa7390238.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/load_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/retina_images/04a0773c71fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/retina_images/127976eab419.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/retina_images/3943a494fb0d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/retina_images/95c3558dc279.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/retina_images/ad4c27a10804.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/retina_images/b59604582a69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/retina_images/c5ff8e81f094.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/retina_images/ee969c006782.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/datasets/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/datasets/voc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/bninception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/cafferesnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/dpn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/fbresnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/fbresnet/resnet152_dump.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/fbresnet/resnet152_load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/inceptionresnetv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/inceptionv4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/nasnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/nasnet_mobile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/pnasnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/polynet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/resnext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/resnext_features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/resnext_features/resnext101_32x4d_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/resnext_features/resnext101_64x4d_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/senet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/torchvision_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/vggm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/wideresnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/models/xception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/data/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/data/cat_224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/data/croco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/data/imagenet_classes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/data/imagenet_synsets.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/examples/imagenet_eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/examples/imagenet_logits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/examples/visu_arch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/examples/voc2007_extract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/datasets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/datasets/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/datasets/voc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/bninception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/cafferesnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/dpn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/fbresnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/fbresnet/resnet152_dump.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/fbresnet/resnet152_load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/inceptionresnetv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/inceptionv4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/nasnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/nasnet_mobile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/pnasnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/polynet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/resnext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/resnext_features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/resnext_features/resnext101_32x4d_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/resnext_features/resnext101_64x4d_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/senet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/torchvision_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/vggm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/wideresnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/models/xception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/pretrainedmodels/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/tests/test_pm_imagenet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/pretrained-models.pytorch-master/tests/test_torch_save.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/pretrained/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ubuntu@ec2-35-183-4-33.ca-central-1.compute.amazonaws.com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/migrations/0005_auto_20201119_1632.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CloudComputing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CloudComputing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare_app/static/eyecare_app/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/static/eyecare_app/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/workspace.html" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/templates/eyecare_app/workspace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyecare_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eyecare_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/retina_images/Super_Commando_Dhruva.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newpatient/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/newpatient/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newpatient/templates/newpatient/add_new_patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/newpatient/templates/newpatient/add_new_patient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
+    </list>
+    <list id="836b34f0-5f1d-4e6e-b5d5-1bc34dc8ec1e" name="login before use implemented" comment="login before use implemented" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,22 +185,24 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="/media/garud/Logistics/Study/Practice/ComputerVision" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/media/retina_images" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/retina_images" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/eyecare_app/static/eyecare_app" />
       <recent name="$PROJECT_DIR$/eyecare/static/images" />
       <recent name="$PROJECT_DIR$/users" />
-      <recent name="$PROJECT_DIR$/users/static/users" />
-      <recent name="$PROJECT_DIR$/patient_profile/static/patient_profile" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/media/retina_images" />
       <recent name="$PROJECT_DIR$/eyecare_app/templates/eyecare_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run">
+  <component name="RunManager" selected="Python.load_model">
     <configuration name="connect_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CloudComputing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,6 +216,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CloudComputing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,14 +308,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CloudComputing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.run" />
       <item itemvalue="Python.connect_db" />
+      <item itemvalue="Python.load_model" />
       <item itemvalue="Python.models" />
       <item itemvalue="Python.mongodb_test" />
+      <item itemvalue="Python.test_model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.load_model" />
+        <item itemvalue="Python.test_model" />
         <item itemvalue="Python.models" />
         <item itemvalue="Python.connect_db" />
         <item itemvalue="Python.mongodb_test" />
@@ -233,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605738474685</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="login before use implemented">
+      <created>1605738846340</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605738846340</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,78 +509,110 @@
       <screen x="52" y="27" width="1308" height="741" />
     </state>
     <state x="401" y="199" width="599" height="403" key="#com.intellij.fileTypes.FileTypeChooser/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605737094310" />
-    <state x="464" y="145" key="#xdebugger.evaluate" timestamp="1605726402373">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state x="946" y="363" width="601" height="504" key="#xdebugger.evaluate" timestamp="1606671029020">
+      <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="464" y="145" key="#xdebugger.evaluate/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605726402373" />
+    <state x="352" y="194" width="601" height="504" key="#xdebugger.evaluate/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606632431196" />
+    <state x="946" y="363" width="616" height="511" key="#xdebugger.evaluate/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606671029020" />
     <state x="304" y="90" width="1046" height="629" key="DiffContextDialog" timestamp="1605737827052">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
     <state x="304" y="90" width="1046" height="629" key="DiffContextDialog/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605737827052" />
-    <state x="580" y="147" width="424" height="491" key="FileChooserDialogImpl" timestamp="1604550173459">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state x="2006" y="146" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605760813836">
+      <screen x="1360" y="0" width="1600" height="900" />
     </state>
+    <state x="2006" y="146" width="424" height="491" key="FileChooserDialogImpl/52.27.1308.741/1360.0.1600.900@1360.0.1600.900" timestamp="1605760813836" />
     <state x="580" y="147" width="424" height="491" key="FileChooserDialogImpl/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1604550173459" />
     <state x="1360" y="256" key="FileChooserDialogImpl/52.27.2908.873@52.27.2908.873" timestamp="1603469439616" />
-    <state width="1285" height="259" key="GridCell.Tab.0.bottom" timestamp="1605738439180">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state width="1525" height="275" key="GridCell.Tab.0.bottom" timestamp="1606682058124">
+      <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state width="1285" height="259" key="GridCell.Tab.0.bottom/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738439180" />
+    <state width="1285" height="259" key="GridCell.Tab.0.bottom/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605761178248" />
+    <state width="1525" height="275" key="GridCell.Tab.0.bottom/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606682058124" />
     <state width="1525" height="322" key="GridCell.Tab.0.bottom/52.27.1548.873@52.27.1548.873" timestamp="1603410305574" />
+    <state width="1845" height="315" key="GridCell.Tab.0.bottom/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674254248" />
     <state width="1285" height="259" key="GridCell.Tab.0.bottom/52.27.2908.873@52.27.2908.873" timestamp="1603545594499" />
-    <state width="1285" height="259" key="GridCell.Tab.0.center" timestamp="1605738439180">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state width="1525" height="275" key="GridCell.Tab.0.center" timestamp="1606682058124">
+      <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state width="1285" height="259" key="GridCell.Tab.0.center/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738439180" />
+    <state width="1285" height="259" key="GridCell.Tab.0.center/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605761178248" />
+    <state width="1525" height="275" key="GridCell.Tab.0.center/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606682058124" />
     <state width="1525" height="322" key="GridCell.Tab.0.center/52.27.1548.873@52.27.1548.873" timestamp="1603410305573" />
+    <state width="1845" height="315" key="GridCell.Tab.0.center/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674254248" />
     <state width="1285" height="259" key="GridCell.Tab.0.center/52.27.2908.873@52.27.2908.873" timestamp="1603545594498" />
-    <state width="1285" height="259" key="GridCell.Tab.0.left" timestamp="1605738439180">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state width="1525" height="275" key="GridCell.Tab.0.left" timestamp="1606682058124">
+      <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state width="1285" height="259" key="GridCell.Tab.0.left/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738439180" />
+    <state width="1285" height="259" key="GridCell.Tab.0.left/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605761178248" />
+    <state width="1525" height="275" key="GridCell.Tab.0.left/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606682058124" />
     <state width="1525" height="322" key="GridCell.Tab.0.left/52.27.1548.873@52.27.1548.873" timestamp="1603410305572" />
+    <state width="1845" height="315" key="GridCell.Tab.0.left/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674254247" />
     <state width="1285" height="259" key="GridCell.Tab.0.left/52.27.2908.873@52.27.2908.873" timestamp="1603545594498" />
-    <state width="1285" height="259" key="GridCell.Tab.0.right" timestamp="1605738439180">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state width="1525" height="275" key="GridCell.Tab.0.right" timestamp="1606682058124">
+      <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state width="1285" height="259" key="GridCell.Tab.0.right/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738439180" />
+    <state width="1285" height="259" key="GridCell.Tab.0.right/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605761178248" />
+    <state width="1525" height="275" key="GridCell.Tab.0.right/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606682058124" />
     <state width="1525" height="322" key="GridCell.Tab.0.right/52.27.1548.873@52.27.1548.873" timestamp="1603410305574" />
+    <state width="1845" height="315" key="GridCell.Tab.0.right/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674254248" />
     <state width="1285" height="259" key="GridCell.Tab.0.right/52.27.2908.873@52.27.2908.873" timestamp="1603545594498" />
-    <state width="1525" height="267" key="GridCell.Tab.1.bottom" timestamp="1605731463831">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state width="1525" height="247" key="GridCell.Tab.1.bottom" timestamp="1606677807250">
+      <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state width="1525" height="267" key="GridCell.Tab.1.bottom/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605731463831" />
+    <state width="1525" height="267" key="GridCell.Tab.1.bottom/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605761178244" />
+    <state width="1525" height="247" key="GridCell.Tab.1.bottom/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606677807250" />
+    <state width="1845" height="315" key="GridCell.Tab.1.bottom/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674254248" />
     <state width="1285" height="215" key="GridCell.Tab.1.bottom/52.27.2908.873@52.27.2908.873" timestamp="1603461962497" />
-    <state width="1525" height="267" key="GridCell.Tab.1.center" timestamp="1605731463830">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state width="1525" height="247" key="GridCell.Tab.1.center" timestamp="1606677807250">
+      <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state width="1525" height="267" key="GridCell.Tab.1.center/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605731463830" />
+    <state width="1525" height="267" key="GridCell.Tab.1.center/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605761178244" />
+    <state width="1525" height="247" key="GridCell.Tab.1.center/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606677807250" />
+    <state width="1845" height="315" key="GridCell.Tab.1.center/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674254248" />
     <state width="1285" height="215" key="GridCell.Tab.1.center/52.27.2908.873@52.27.2908.873" timestamp="1603461962497" />
-    <state width="1525" height="267" key="GridCell.Tab.1.left" timestamp="1605731463830">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state width="1525" height="247" key="GridCell.Tab.1.left" timestamp="1606677807250">
+      <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state width="1525" height="267" key="GridCell.Tab.1.left/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605731463830" />
+    <state width="1525" height="267" key="GridCell.Tab.1.left/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605761178244" />
+    <state width="1525" height="247" key="GridCell.Tab.1.left/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606677807250" />
+    <state width="1845" height="315" key="GridCell.Tab.1.left/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674254248" />
     <state width="1285" height="215" key="GridCell.Tab.1.left/52.27.2908.873@52.27.2908.873" timestamp="1603461962496" />
-    <state width="1525" height="267" key="GridCell.Tab.1.right" timestamp="1605731463830">
+    <state width="1525" height="247" key="GridCell.Tab.1.right" timestamp="1606677807250">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state width="1525" height="267" key="GridCell.Tab.1.right/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605761178244" />
+    <state width="1525" height="247" key="GridCell.Tab.1.right/52.27.1548.873/1920.0.1600.900@52.27.1548.873" timestamp="1606677807250" />
+    <state width="1845" height="315" key="GridCell.Tab.1.right/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674254248" />
+    <state width="1285" height="215" key="GridCell.Tab.1.right/52.27.2908.873@52.27.2908.873" timestamp="1603461962497" />
+    <state x="337" y="160" width="728" height="482" key="MultipleFileMergeDialog" timestamp="1605738780155">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
-    <state width="1525" height="267" key="GridCell.Tab.1.right/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605731463830" />
-    <state width="1285" height="215" key="GridCell.Tab.1.right/52.27.2908.873@52.27.2908.873" timestamp="1603461962497" />
+    <state x="337" y="160" width="728" height="482" key="MultipleFileMergeDialog/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738780155" />
     <state x="451" y="100" width="500" height="602" key="RollbackChangesDialog" timestamp="1605737036775">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
     <state x="451" y="100" width="500" height="602" key="RollbackChangesDialog/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605737036775" />
-    <state x="52" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1605738391742">
-      <screen x="52" y="27" width="1308" height="741" />
+    <state x="52" y="32" width="1022" height="737" key="SettingsEditor" timestamp="1606617460915">
+      <screen x="52" y="27" width="1868" height="1053" />
     </state>
     <state x="52" y="31" width="1022" height="737" key="SettingsEditor/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738391742" />
     <state x="52" y="31" width="1022" height="737" key="SettingsEditor/52.27.1548.873@52.27.1548.873" timestamp="1605632568345" />
-    <state x="284" y="106" width="580" height="455" key="Vcs.Push.Dialog.v2" timestamp="1605738641659">
+    <state x="52" y="32" width="1022" height="737" key="SettingsEditor/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606617460915" />
+    <state x="549" y="312" width="303" height="178" key="VCS.ChangelistChooser" timestamp="1605738792546">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
-    <state x="284" y="106" width="580" height="455" key="Vcs.Push.Dialog.v2/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738641659" />
+    <state x="549" y="312" width="303" height="178" key="VCS.ChangelistChooser/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738792546" />
+    <state x="284" y="106" width="580" height="455" key="Vcs.Push.Dialog.v2" timestamp="1605738858660">
+      <screen x="52" y="27" width="1308" height="741" />
+    </state>
+    <state x="284" y="106" width="580" height="455" key="Vcs.Push.Dialog.v2/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738858660" />
     <state x="421" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.1548.873@52.27.1548.873" timestamp="1601086473480" />
     <state x="1360" y="199" width="800" height="535" key="Vcs.Push.Dialog.v2/52.27.2908.873@52.27.2908.873" timestamp="1603497237612" />
+    <state width="934" height="526" key="XDebugger.FullValuePopup" timestamp="1606674250615">
+      <screen x="52" y="27" width="1868" height="1053" />
+    </state>
+    <state width="934" height="526" key="XDebugger.FullValuePopup/52.27.1868.1053/1920.0.1600.900@52.27.1868.1053" timestamp="1606674250615" />
     <state x="83" y="73" width="950" height="659" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1602133505497">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
@@ -393,20 +625,13 @@
       <screen x="52" y="27" width="1308" height="741" />
     </state>
     <state x="397" y="136" width="618" height="522" key="find.popup/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1604877456096" />
+    <state x="485" y="310" width="431" height="181" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1605738784023">
+      <screen x="52" y="27" width="1308" height="741" />
+    </state>
+    <state x="485" y="310" width="431" height="181" key="git4idea.rebase.GitUnstructuredEditor/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605738784023" />
     <state x="427" y="297" width="547" height="207" key="git4idea.ui.GitStashDialog" timestamp="1605737734280">
       <screen x="52" y="27" width="1308" height="741" />
     </state>
     <state x="427" y="297" width="547" height="207" key="git4idea.ui.GitStashDialog/52.27.1308.741/1360.0.1600.900@52.27.1308.741" timestamp="1605737734280" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/users/views.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

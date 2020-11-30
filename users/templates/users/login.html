@@ -1,15 +1,15 @@
 {% extends "eyecare_app/base.html" %}
 {% load crispy_forms_tags %}
 {% block content %}
-
+<section id="workspace">
     <div class="content-section">
         <form method="POST">
             {% csrf_token %}
-            <fieldset class="form-group">
+            <fieldset class="form-group" style="align:center; color: black">
                 <legend class="border-bottom mb-4">Log In</legend>
                 {{ form|crispy }}
                 {% if request.GET.next %}
-                    <input type="hidden" name="next", value="{{request.GET.next }}">
+                    <input type="hidden" name="next" value="{{request.GET.next }}">
                 {% endif %}
             </fieldset>
             <div class="form-group">
@@ -22,4 +22,6 @@
             </small>
         </div>
     </div>
+</section>
+
 {% endblock content %}

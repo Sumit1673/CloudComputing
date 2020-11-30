@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'eyecare_app.apps.EyecareAppConfig',
-    'eyecare_app',
+    'eyecare_app.apps.EyecareAppConfig',
     'newpatient.apps.NewpatientConfig',
     'crispy_forms',
     'users.apps.UsersConfig',

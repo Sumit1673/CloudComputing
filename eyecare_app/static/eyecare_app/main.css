@@ -1,23 +1,313 @@
 body {
-  background: #fafafa url("images/bgimg1.jpg");
-  color: #333333;
-  margin-top: 5rem;
+  background: #fafafa;
+  color: white;
+  margin-top: 0rem;
+  z-index: 1;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+body::after{
+    content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+    background: black;
+    opacity: 0.5;
+    z-index:-1;
+}
+
+.content-section{
+    background-width:40rem
+}
+
+
+/*workspace*/
+
+#workspace{
+ margin-top: 5rem;
+ background-size:cover;
+}
+/*end workspace*/
+
+/*home page*/
+.home{
+  background :url(https://d33ljpvc0tflz5.cloudfront.net/dims3/MMH/5c8de1f/2147483647/strip/true/crop/4992x3250+0+39/resize/768x500!/quality/75/?url=https%3A%2F%2Fd26ua9paks4zq.cloudfront.net%2F41%2Fd2%2F7a0f533d4624831f8dbc82bb607c%2Fgettyimages-174973389-rf-hg.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  background-attachment: fixed;
+  margin-top: 0;
+  z-index: 1;
+}
+
+.home::after{
+	background-color: black;
+	opacity: .7;
+	z-index: -1;
+}
+
+.content{
+    padding-top: 15rem;
+    position: relative;
+}
+
+
+.content h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal .5s ease forwards;
+	animation-delay: 1s;
+}
+.content h1:nth-child(1) {
+	animation-delay: 1s;
+}
+.content h1:nth-child(2) {
+	animation-delay: 2s;
+}
+.content h1:nth-child(3) {
+	animation: text_reveal_name .5s ease forwards;
+	animation-delay: 3s;
+}
+.content h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: #42a1f5;
+	animation: text_reveal_box 1s ease;
+	animation-delay: .5s;
+}
+.content h1:nth-child(1) span {
+	animation-delay: .5s;
+}
+.content h1:nth-child(2) span {
+	animation-delay: 1.5s;
+}
+.content h1:nth-child(3) span {
+	animation-delay: 2.5s;
+}
+
+.brand_name a span{
+  color: #42a1f5;
+}
+/* end of home page */
+
+/*about section*/
+#gallery .img-thumbnail{
+    min-width:300px;
+    min-height:400px;
+
+}
+#gallery h2 {
+color: #26272b;
+}
+#resnet h2 {
+color: #26272b;
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+/*end about*/
+
+.leftside, .rightside{
+    height:100vh;
+    widht:100%;
+}
+
+.leftside{
+    background:red;
+}
+
+.rightside{
+    background:blue;
 }
 /* To change a page title color use the belows section */
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: white;
 }
 /* To change the header color use the belows section */
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #212F3C;
 }
 
+
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  /*color: #cbd5db;*/
+  color: white;
 }
 
 .site-header .navbar-nav .nav-link:hover {
-  color: #ffffff;
+  /*color: #ffffff;*/
+  color: white;
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -102,6 +392,8 @@ a.article-title:hover {
   }
 table.dataTable th, table.dataTable td {
     white-space: nowrap;
+    background-color: #00008B;
+    text-align: center;
 }
 .p {
     text-align: center;
@@ -111,7 +403,9 @@ table.dataTable th, table.dataTable td {
 .button2 {background-color: #008CBA;} /* Blue */
 
 table {
+  background-color: #000080;
   width: 300px;
+  text-align: center;
 }
 
 #bg {
@@ -123,3 +417,33 @@ table {
   min-width: 100%;
   min-height: 100%;
 }
+#Metrics {
+        float:right;
+        background:blue;
+        width:25%;
+        height:280px;
+ }
+
+/*keyframnes*/
+@keyframes text_reveal_box {
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal {
+	100% {
+		color: white;
+	}
+}
+@keyframes text_reveal_name {
+	100% {
+		color: #D4AC0D  ;
+		font-weight: 500;
+	}
+}
+/*end of keyframes*/

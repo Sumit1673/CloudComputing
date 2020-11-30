@@ -1,54 +1,88 @@
 {% extends "eyecare_app/base.html" %}
 {% block content %}
-
+<section id="workspace">
     <h1> Workspace</h1>
-    <p style="font-family:verdana; font-size:150%; color:green">
-        <b>Add patients information, retina images and send it for analysis</b>
+    <p style="font-family:verdana; font-size:150%; color:white">
+    <h2>Add patients information, retina images and send it for analysis</h2>
     </p>
     <a href="{% url 'app-add_new_patient'%}">
     <button class="patient-add-btn button1">Add Patient</button>
     </a>
 <!--    <button onclick="{% url 'app-add_new_patient'%}" class="patient-add-btn button1" type="button" > Add Patient </button>-->
-    <button onclick="" name="del_patient" value="DelPatient" class="patient-add-btn button1"> Delete Patient </button>
-    <button onclick="" name="view_patient" value="ViewPatient" class="patient-add-btn button1"> View Patient Profile </button>
-    <button onclick="" name="analyze_patient" value="AnalyzePatient" class="patient-add-btn button1"> Send for Analysis </button>
-    {% if btn_clicked %}
-        <div>
-            <table class="table">
-          <thead class="thead-dark">
-            <tr>
-              <th scope="col"></th>
-              <th scope="col">Patient ID</th>
-              <th scope="col">First Name</th>
-              <th scope="col">Last Name</th>
-              <th scope="col">Result/Severity Level</th>
-              <th scope="col">Tested on</th>
-              <th scope="col">AI confidence</th>
-              <th scope="col">Comments</th>
-            </tr>
-          </thead>
-            <tbody>
-            {% for each_data in data %}
-             <tr>
-            <td>
-              <div class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="customCheck1" >
-                  <label class="custom-control-label" for="customCheck1">{{each_data.id}}</label>
-              </div>
-              {% if data %}
-                <td>Bootstrap 4 CDN and Starter Template</td>
-                <td>Cristina</td>
-                <td>913</td>
-                <td>2.846</td>
-              {% else %}
-                <h2> No data available</h2>
-              {% endif %}
-              </td>
-          </tr>
-             {% endfor %}
+<!--    <button onclick="" name="del_patient" value="DelPatient" class="patient-add-btn button1"> Delete Patient </button>-->
+<!--    <button onclick="" name="view_patient" value="ViewPatient" class="patient-add-btn button1"> View Patient Profile </button>-->
+        {% if btn_clicked %}
 
-            </tbody>
-        </table>
-        </div>
+        <div >
+            <form method="POST" action="{% url 'app-analyze_retina' %}" >
+            {% csrf_token %}
+                <table class="table" id="patient_list">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Patient ID</th>
+                      <th scope="col">First Name</th>
+                      <th scope="col">Last Name</th>
+                      <th scope="col">Result/Severity Level</th>
+                      <th scope="col">Tested on</th>
+                      <th scope="col">Comments</th>
+                        <th scope="col">Diagnose</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+                    {% for patient in data %}
+                         <tr>
+                            <td bgcolor="mediumaquagreen">{{patient.1}}</td>
+
+<!--                              <div class="custom-control custom-checkbox">-->
+<!--                                  <input type="checkbox" onclick="check(this)" class="custom-control-input" name="checks" id={{patient.1}} value="{{patient.1}}" >-->
+<!--                                  <label class="custom-control-label" for={{patient.1}}>{{patient.1}}</label>-->
+
+            <!--                    <td  bgcolor="mediumaquagreen" > {{ patient.1 }}</td>-->
+                                <td  bgcolor="mediumaquagreen">{{patient.2}}</td>
+                                <td  bgcolor="mediumaquagreen" >{{patient.3}}</td>
+                                <td  bgcolor="mediumaquagreen">{{patient.4}}</td>
+                                <td  bgcolor="mediumaquagreen">{{patient.6}}</td>
+                                <td  bgcolor="mediumaquagreen" > - </td>
+                                <td  bgcolor="mediumaquagreen" >
+<!--                                    <a href="{% url 'app-analyze_retina' %}">-->
+                                        <button type="submit" name="analysis" value="{{patient.1}}">Analyze</button>
+<!--                                    </a>-->
+                                </td>
+                         </tr>
+                     {% endfor %}
+
+                    </tbody>
+                </table>
+                </form>
+            </div>
+</section>
+
+
+<!--          <script type="text/javascript">-->
+<!--            function check(n) {-->
+<!--            if (n.checked){-->
+<!--&lt;!&ndash;                    alert(n.value)&ndash;&gt;-->
+<!--                    }-->
+<!--&lt;!&ndash;                //Reference the Table.&ndash;&gt;-->
+<!--&lt;!&ndash;                var grid = document.getElementById("patient_list");&ndash;&gt;-->
+
+<!--&lt;!&ndash;                //Reference the CheckBoxes in Table.&ndash;&gt;-->
+<!--&lt;!&ndash;                var checkBoxes = grid.getElementsByTagName("INPUT");&ndash;&gt;-->
+
+<!--&lt;!&ndash;               for (var i =0; i< checkBoxes.length; i++){&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    var row_items = checkBoxes.rows.item(i).cells;&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    if (checkBoxes[i].checked) {&ndash;&gt;-->
+<!--&lt;!&ndash;                        alert(checkBoxes[i].checked)&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        var col_val = row_items.item(i).innerHTML&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        alert(col_val)&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                    }&ndash;&gt;-->
+<!--&lt;!&ndash;               }&ndash;&gt;-->
+<!--            }-->
+
+<!--        </script>-->
+<!--&lt;!&ndash;        </div>&ndash;&gt;-->
+
     {% endif %}
+
 {% endblock content %}

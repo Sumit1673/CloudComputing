@@ -2,7 +2,8 @@ from djongo import models
 from PIL import Image
 # class name represents the collection name
 class DataPatinet(models.Model):
-
+    # no primary key is chosen so the databse will chose for us. By default it
+    # 'id'.
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50,default='NA')
     patient_id = models.CharField(max_length=50)
