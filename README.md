@@ -29,10 +29,10 @@ There are two ways of describing the speciality of the project:
  ResNet-101 trained for 15 epocs on 9GB of dataset.
  
  # Dataset
- ![DR Dataset](https://www.kaggle.com/c/aptos2019-blindness-detection/data)
+ [DR Dataset!](https://www.kaggle.com/c/aptos2019-blindness-detection/data)
  
  # Training Script
- ![Notebook](https://www.kaggle.com/sumitv29/diabeticretinopathy/edit?rvi=1)
+ [Notebook!](https://www.kaggle.com/sumitv29/diabeticretinopathy/edit?rvi=1?)
  
  # Development Details
  The versions of django and djongo are very important. Djongo is used to connect django app with mongoDB and probably after this version there was difficulty in 
