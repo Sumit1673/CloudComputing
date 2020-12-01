@@ -8,11 +8,19 @@ Diabetic retinopathy occurs when the damaged blood vessels leak blood and other 
 The problem of retinopathy is constantly increasing. Even the developed countries like UK, US and India cannot save themselves from this disease. A good amount of research is going on this area to treat this disease at a very early age. To do this companies like Google are utilizing the power of Deep Learning. A full article about the research in Google can found out [Here!](https://about.google/stories/seeingpotential/).
 
 # Level of Dibetes in the Eye.
-
+# No DR
 ![No DR](https://github.com/Sumit1673/Diabetic-Retinopathy-Analysis-PyTorch/blob/master/label0_002c21358ce6.png?raw=true)
+
+# MILD DR
 ![MILD](https://github.com/Sumit1673/Diabetic-Retinopathy-Analysis-PyTorch/blob/master/label1_0024cdab0c1e.png?raw=true)
+
+# Moderate DR
 ![MODERATE](https://github.com/Sumit1673/Diabetic-Retinopathy-Analysis-PyTorch/blob/master/label2_000c1434d8d7.png?raw=true)
+
+# Severe DR
 ![SEVERE](https://github.com/Sumit1673/Diabetic-Retinopathy-Analysis-PyTorch/blob/master/label3_0104b032c141.png?raw=true)
+
+# Proliferative DR
 ![Proliferative DR](https://github.com/Sumit1673/Diabetic-Retinopathy-Analysis-PyTorch/blob/master/label4_001639a390f0.png?raw=true)
 
 
